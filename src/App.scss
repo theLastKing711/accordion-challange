@@ -1,0 +1,18 @@
+@import url('./scss/variables/_variables.scss');
+
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  background-image: linear-gradient(to top right, var(--soft-blue), var(--soft-violet));
+  font-weight: 400;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
